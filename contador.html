@@ -1,48 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="contador.js" defer></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Contador Javascript</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav>
-        <ul>
-            <li>
-                <h1>Contador</h1>
-            </li>
-            <li><button class="btn-contador">Contador</button></li>
-        </ul>
+      <ul>
+        <li>
+          <a href="index.html"><h1>Contador</h1></a>
+        </li>
+        <li><button class="btn-contador">Reiniciar</button></li>
+      </ul>
     </nav>
     <section class="content">
-        <div class="display">
-            <span class="digitos">02</span>
-            <span class="nomes">Dia</span>
-        </div>
-        <div class="display">
+      <div class="display">
+        <span class="digitos" id="days">02</span>
+        <span class="nomes">Dia</span>
+      </div>
+      <div class="display">
+        <span class="digitos" id="hours">10</span>
+        <span class="nomes">Hora</span>
+      </div>
 
-            <span class="digitos">10</span>
-            <span class="nomes">Hora</span>
-        </div>
-
-        <div class="display">
-
-            <span class="digitos">40</span>
-            <span class="nomes">Minuto</span>
-        </div>
-        <div class="display">
-
-            <span class="digitos">13</span>
-            <span class="nomes">Segundo</span>
-        </div>
-
-
-
+      <div class="display">
+        <span class="digitos" id="minutes">40</span>
+        <span class="nomes">Minuto</span>
+      </div>
+      <div class="display">
+        <span class="digitos" id="seconds">13</span>
+        <span class="nomes">Segundo</span>
+      </div>
     </section>
-</body>
-
+  </body>
 </html>
