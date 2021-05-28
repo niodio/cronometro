@@ -1,0 +1,146 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#000;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+nav{
+    width: 100vw;
+    margin-top: 20px;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+nav ul li {
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+
+ 
+
+main{
+ display: flex;
+ width: 20rem;
+ flex-wrap: wrap;
+ row-gap: 2rem;
+ justify-content: center;
+ align-items: center;
+margin-top: 10rem;
+
+
+}
+
+h1{
+    color: #21EB00;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    color: #c2c1c1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    width: 100%;
+
+}
+#data{
+    background-color: #222121;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+
+    border: none;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn{
+    background-color: #21EB00;
+
+    width: 100%;
+    border: none;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: #158804;
+cursor: pointer;
+
+}
+
+.btn-contador{
+    background-color: #21EB00;
+    width: 20vw;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 1rem;
+  
+}
+
+.btn-contador:hover{
+    background-color: #158804;
+cursor: pointer;
+
+}
+
+.content{
+    
+    height: 100vh;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.digitos{
+    color: #fff;
+    font-size: 7rem;
+}
+
+.nomes{
+    color: #21EB00;
+    font-weight: bold;
+    font-size: 2.2rem;
+
+
+}

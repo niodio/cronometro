@@ -42,7 +42,7 @@ Seu desafio é criar um contador (com dias, horas, minutos e segundos), a partir
 Javascript<br>
 HTML<br>
 CSS<br>
-Linguagem de sua preferência :)
+Materialize
 
 # Como começar:
 1 - Use esse template ou clone esse repositório com o código inicial<br>
